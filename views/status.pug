@@ -1,0 +1,15 @@
+doctype html
+html
+	head
+		title My Dashboard
+		link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css')
+		link(rel='stylesheet', href='/css/index.css')
+		script(type='text/javascript', src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js')
+		script(type='text/javascript', src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js')
+	body
+		div.jumbotron.text-center
+			h1 My Dashboard
+		div.container
+			div(style='color:red')=statustxt
+			p
+				a(href='http://localhost:3000') Go Back
